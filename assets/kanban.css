@@ -1,0 +1,19 @@
+.board {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.column {
+    flex: 1;
+    background: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+}
+.card {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
